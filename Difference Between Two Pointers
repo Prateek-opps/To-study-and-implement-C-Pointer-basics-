@@ -16,12 +16,15 @@ int main() {
     cout<<"Address in ptr2"<<ptr2<<endl;
 
     int diff=ptr2-ptr1;
+    int sum=*ptr1+ *ptr2;
 
     cout<<"Difference between ptr2 and ptr1: "<<diff<<endl;
+    cout<<"Addition between ptr1 and ptr2: "<<sum<<endl;
     return 0;
 }
 /*Output:-
-Address in ptr10x7ffe3da48964
-Address in ptr20x7ffe3da48970
+Address in ptr10x7ffdd40a5194
+Address in ptr20x7ffdd40a51a0
 Difference between ptr2 and ptr1: 3
+Addition between ptr1 and ptr2: 70
 */
