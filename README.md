@@ -1,3 +1,9 @@
+Prateek Sinha
+
+24070123077
+
+ENTC A3
+
 # Pointer Programs in C++
 
 This repository demonstrates the use of **pointers** in C++ through several basic programs:
