@@ -3,3 +3,25 @@ Prateek Sinha
 24070123077
 ENTC A3
 
+#include <iostream>
+using namespace std;
+
+int main() {
+    int arr[] = {10,20,30,40,50};
+
+    int *ptr1=&arr[1];
+    int *ptr2=&arr[4];
+
+    cout<<"Address in ptr1"<<ptr1<<endl;
+    cout<<"Address in ptr2"<<ptr2<<endl;
+
+    int diff=ptr2-ptr1;
+
+    cout<<"Difference between ptr2 and ptr1: "<<diff<<endl;
+    return 0;
+}
+/*Output:-
+Address in ptr10x7ffe3da48964
+Address in ptr20x7ffe3da48970
+Difference between ptr2 and ptr1: 3
+*/
